@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+</head>
+<body>
+	<div id="ajSlider"> 
+	  <img src="img/D1.jpg" width="" height="">    
+	  <img src="img/D2.jpg" width="" height="">    
+	  <img src="img/D5.jpg" width="" height="">    
+	  <img src="img/D1.jpg" width="" height="">    
+	  <img src="img/D5.jpg" width="" height="">    
+	 
+	  <a>Text 1</a> 
+	  <a>Text 2</a> 
+	  <a>Text 3</a> 
+	  <a>Text 4</a> 
+	  <a>Text 5</a> 
+	</div> 
+	<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+	<script type="text/javascript" src="js/ajSlider.js"></script>
+	<script type="text/javascript">
+
+$(document).ready(function() {  
+  $('#ajSlider').ajSlider(3000,{    
+   "slideshow":"enable", //disable or enable the slideshow 
+   "width":"100%", //width of slider    
+   "height":"800px", //height of slider  
+   "activeBullet":"red", //color of the active bullet   
+   "inactiveBullet":"orange", //color of inactive bullet    
+   "textPosition":"30%", //position of text from top    
+   "textSize":"60px" //font size of the text    
+  });   
+});
+
+</script>
+</body>
+</html>
